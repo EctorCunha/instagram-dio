@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.instagram-phone img{
+    display: none;
+}
+
+.principal{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    margin: 2.5rem auto ;
+    gap: 2rem;
+}
+
+.logo {
+    width: 11rem;
+    margin-top: 2rem;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 7rem;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+.principal button {
+    width: 230px;
+    padding: 0.5rem;
+    background-color: rgb(24, 146, 176);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(19, 157, 204);
+}
+
+
+
+@media(min-width: 451px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+    }
+}
+
+
+
+@media (min-width: 876px){
+    .instagram{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .principal{
+        width: 340px;
+        height: 340px;
+        margin-left: -120px;
+        margin-top: 150px;
+    }
+
+    .instagram-phone img{
+        display: flex;
+        width: 70vw;
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 925px){
+    .instagram-phone img{
+        width: 70vw;
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 1070px){
+    .instagram-phone img{
+        width: 60vw;
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 1324px){
+    .instagram-phone img{
+        width: 50vw;
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 1600px){
+    .instagram-phone img{
+        width: 50vw;
+        margin-left: -400px;
+    }
+}
